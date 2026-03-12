@@ -45,7 +45,7 @@ export default function LandingPage() {
           ]}
           title="Create Highly Cinematic Reels Starting at Just ₹999"
           description="For creators, influencers, and brands who want to captivate audiences and boost engagement with scroll-stopping visual storytelling."
-          tag="Professional Video Production"
+          tag="Professional Phone Video Production"
           tagIcon={Film}
           tagAnimation="slide-up"
           buttons={[{text: "Get Started Today", href: "#pricing"}, {text: "View Samples", href: "#services"}]}
@@ -87,7 +87,7 @@ export default function LandingPage() {
           title="Cinematic Reel Packages Tailored For You"
           description="Choose from our expertly designed packages: Starter Pack (₹999) includes 1 cinematic reel with professional editing. Influencer Pack offers multiple reels per month with branding consistency. Business Pack delivers ad-focused reels designed to drive conversions and customer acquisition."
           metrics={[{value: "3 Packages", title: "Service Tiers Available"}, {value: "Starting ₹999", title: "Affordable Professional Quality"}]}
-          imageSrc="http://img.b2bpic.net/free-psd/night-club-fun-template_23-2151517067.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqlGRqMMHRC0HSytGKVh1s96Pj/uploaded-1773328399206-ybfv6973.png"
           imageAlt="Professional reel editing and production"
           mediaAnimation="slide-up"
           metricsAnimation="slide-up"
