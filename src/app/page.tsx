@@ -44,7 +44,7 @@ export default function LandingPage() {
           ]}
           title="Create Highly Cinematic Reels Starting at Just ₹999"
           description="For creators, influencers, and brands who want to captivate audiences and boost engagement with scroll-stopping visual storytelling."
-          tag="Professional Phone Video Production"
+          tag="Professional iPhone Video Production"
           tagIcon={Film}
           tagAnimation="slide-up"
           buttons={[{text: "Get Started Today", href: "#pricing"}, {text: "View Samples", href: "#services"}]}
