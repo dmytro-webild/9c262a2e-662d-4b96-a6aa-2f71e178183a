@@ -5,12 +5,11 @@ import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/Nav
 import FeatureBento from '@/components/sections/feature/FeatureBento';
 import FeatureHoverPattern from '@/components/sections/feature/featureHoverPattern/FeatureHoverPattern';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
-import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import { Film, Tag, Users, TrendingUp, Play, Star, Zap, Shield, Target, Award, Sparkles, Heart, DollarSign, HelpCircle } from 'lucide-react';
+import { Film, Tag, Users, TrendingUp, Play, Star, Zap, Shield, Target, Award, Sparkles, DollarSign, HelpCircle } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -92,28 +91,6 @@ export default function LandingPage() {
           mediaAnimation="slide-up"
           metricsAnimation="slide-up"
           useInvertedBackground={true}
-        />
-      </div>
-
-      <div id="testimonials" data-section="testimonials">
-        <TestimonialCardSix
-          testimonials={[
-            {id: "1", name: "Priya Sharma", handle: "@priyacreates", testimonial: "ReelZen transformed my content strategy. My engagement went from 500 to 5000 views per reel in just two weeks. Absolutely game-changing!", imageSrc: "http://img.b2bpic.net/free-photo/content-business-woman-talking-smartphone-outdoors_1262-20534.jpg", imageAlt: "Priya Sharma"},
-            {id: "2", name: "Arjun Patel", handle: "@arjunvlogs", testimonial: "The cinematic quality is unmatched. For ₹999, I'm getting production value that would cost me 10x at traditional agencies. Highly recommended!", imageSrc: "http://img.b2bpic.net/free-photo/portrait-successful-young-businessman-with-his-arms-crossed-looking-camera_23-2148176207.jpg", imageAlt: "Arjun Patel"},
-            {id: "3", name: "Neha Singh", handle: "@nehastyle", testimonial: "Perfect for influencers who want professional results without the premium price tag. ReelZen's team really understands the creator economy.", imageSrc: "http://img.b2bpic.net/free-photo/smiling-successful-middle-aged-business-leader_1262-5690.jpg", imageAlt: "Neha Singh"},
-            {id: "4", name: "Amit Desai", handle: "CEO, DesaiTech", testimonial: "We saw a 45% increase in customer inquiries after using ReelZen's business reels. This is exactly what our brand needed for social selling.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-female-with-glasses_23-2148415937.jpg", imageAlt: "Amit Desai"},
-            {id: "5", name: "Rohan Kumar", handle: "@rohanfitness", testimonial: "The turnaround time is incredible. I needed 5 reels for my fitness challenge, and they delivered studio-quality content in 72 hours.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-mature-woman-smiling_23-2148407645.jpg", imageAlt: "Rohan Kumar"},
-            {id: "6", name: "Zara Malik", handle: "@zaradesigns", testimonial: "Finally found someone who gets the aesthetic I want. ReelZen's consistency in styling helped establish my brand voice across platforms.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-posing-with-yellow-jacket-brush-stroke_23-2149020782.jpg", imageAlt: "Zara Malik"}
-          ]}
-          title="What Our Clients Say"
-          description="Join hundreds of creators, influencers, and brands who've transformed their content with ReelZen's cinematic reels."
-          tag="Social Proof"
-          tagIcon={Heart}
-          tagAnimation="slide-up"
-          textboxLayout="default"
-          animationType="slide-up"
-          useInvertedBackground={false}
-          speed={40}
         />
       </div>
 
